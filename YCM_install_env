@@ -1,0 +1,6 @@
+#Clang3.6版本以上
+sudo apt-get install clang
+
+#安装cmake和python依赖
+sudo apt-get install build-essential cmake python-dev python3-dev
+
