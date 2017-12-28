@@ -66,6 +66,7 @@ autocmd BufNewFile *.sh 0r ~/.vim/template/common/ext/sh
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match Error /\s\+$/
 
 set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g:YcmCompleter GoToDefinitionElseDeclaration<CR>
