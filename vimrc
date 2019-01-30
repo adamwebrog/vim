@@ -117,3 +117,11 @@ map <F5> : call RunPython()<CR>
 
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
+
+" <f5> 编译和运行C
+" map <f5> :call CompileRunGcc()<cr>
+" func! CompileRunGcc()
+" exec "w"
+" exec "!gcc % -o %<"
+" exec "! ./%<"
+" endfunc
